@@ -17,11 +17,11 @@ WRITE IT AGAIN SUCH THAT IT ACHIEVES
 
   
 
-####  **DNN Approch & Architecture: **  ###
+####  Approach & Architecture:   ###
 
 
 
-**Input DataSet:** MNIST dataset is consist of human hand written monochrome images of size 28x28. Our objective is to detect human hand written digits using simple DNN.
+**Input Data Set:** MNIST dataset is consist of human hand written monochrome images of size 28x28. Our objective is to detect human hand written digits using simple DNN.
 
 **Network Architecture:** We chosen to experiment squeeze & expansion architecture to detect numbers in MINIST dataset. This architecture consist of convolution blocks followed by transition blocks.
 
@@ -37,7 +37,7 @@ WRITE IT AGAIN SUCH THAT IT ACHIEVES
 
 **Batch Normalization** We applied batch normalization after every convolution(cond2d()). BN helped us to standardize the input to a convolution layer for every mini-batch. This stabilizes the learning process and also accelerates the DNN training.
 
-**Avg Pooling** We applied Avg Pooling in before prediction that calculates the average value for each pixel on the feature map.
+**Avg Pooling** We applied Avg. Pooling in before prediction that calculates the average value for each pixel on the feature map.
 
 **Early Stopping** If validation accuracy is not improving for more than 10 epoch we stopped trainings
 
