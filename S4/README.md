@@ -63,7 +63,8 @@ I have implemented a simple convolution neural network architecture, that consis
 
 ### **Output:**
 
-We trained DNN for 20 epoch and reached highest validation accuracy as 99.49% at 11th epoch.
+**We trained DNN consist of  10,370  parameters for 20 epoch and reached highest validation accuracy **
+**99.49% at 11th epoch.**
 
 **Train Vs validation accuracy plot:** It is evident that small gap between train & validation accuracies from 1st to 11th epochs, that means model learns better, after that gap between train vs validation increases that seems model is not learning much and we have to add additional methods to make it better.
 
