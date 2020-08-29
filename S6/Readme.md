@@ -55,3 +55,8 @@ Seems L1 Regularization create more fluctuation in loss & accuracy curve and doe
 **L2 Reg, GBN Only and L1L2 with GBN validation accuracies**  curve looks much smoother, consistently improving. 
 
 **Best Model:**  **Thought L2 Reg, GBN Only and L1L2 with GBN validation accuracies exhibits similar validation accuracies,  L1L2 with GBN outperform all other models  it reached validation highest validation accuracy 99.5% at train accuracy of 99.1%. Looks this model has more scope to push validation accuracy further**. 
+
+#### Misclassified Images(GBM Model)
+
+ ![Images ](https://raw.githubusercontent.com/thamizhannal/eva5/master/S6/misclassifiedimages.png)
+ 
