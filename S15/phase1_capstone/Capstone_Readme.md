@@ -67,13 +67,14 @@ This the data of images regarding the PPE kit, primarily for construction worker
 
 **Yolov3:** Instead if Darknet encoder, we used resnet101 encoder here. Yolo decoder has three outputs which are of the resolution of img_size/32, img_size/16, img_size/8 and are predicted at an anchor box and channel level which in this case is 9, 3 respectively. 
 
-<img src="C:\Users\tparamas\AppData\Roaming\Typora\typora-user-images\image-20201206204513755.png" alt="image-20201206204513755" style="zoom:50%;" />
+![Architecture](https://raw.githubusercontent.com/thamizhannal/eva5/master/S15/phase1_capstone/imgs/arch.png)
 
 
 
 YoLoV3 Decoder: This consist of 3 layer prediction of anchor boxes of size 13, 26, 52. These were created using standard YoloV3 decoders.
 
-![image-20201206204544294](C:\Users\tparamas\AppData\Roaming\Typora\typora-user-images\image-20201206204544294.png)
+![yolodecoder](https://raw.githubusercontent.com/thamizhannal/eva5/master/S15/phase1_capstone/imgs/decode.png)
+
 
 ### Model Training:
 
@@ -133,13 +134,11 @@ fl_epoch += final_loss
 
 Yolo Loss : Step Vs Value for single image. This image shows as step progress loss value reduces from 130 to 80.
 
-![image-20201206192328703](C:\Users\tparamas\AppData\Roaming\Typora\typora-user-images\image-20201206192328703.png)
-
+![yolo loss](https://raw.githubusercontent.com/thamizhannal/eva5/master/S15/phase1_capstone/imgs/yololoss.png)
 ##### Yolo mAP loss: for 14 epochs 
 
 mAP: mean Average Precision
-
-![image-20201206193555033](C:\Users\tparamas\AppData\Roaming\Typora\typora-user-images\image-20201206193555033.png)
+![mAP loss](https://raw.githubusercontent.com/thamizhannal/eva5/master/S15/phase1_capstone/imgs/mAP.png)
 
 
 
